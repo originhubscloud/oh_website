@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="" />
+<meta name="facebook-domain-verification" content="4uhlwye8edomvqqnu0xzaq2lb4awgj" />
+<link rel="canonical" href="/" />
+<link rel='dns-prefetch' href='http://cdnjs.cloudflare.com/' />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel='stylesheet' id='font-mont-css' href="{% static 'CSS/style.css' %}" media='all' />
+<link rel='stylesheet' id='theme-common-css' href="{% static 'CSS/common.css' %}" media='all' />
+<link rel='stylesheet' id='theme-style-css' href="{% static 'CSS/style_cus.css' %}" media='all' />
+<link rel='stylesheet' id='theme-media-css' href="{% static 'CSS/media.css' %}" media='all' />
+<!-- <link rel='stylesheet' id='theme-info-css' href='..//static/content/css/infographic.css' media='all' /> -->
+<link rel='stylesheet' id='jquery-fancybox-min-css' href="{% static 'CSS/jquery.fancybox.min.css' %}" media='all' />
+<link rel="preload" href="{% static 'fonts/Mont-Regular.woff2' %}" as="font" crossorigin>
+<link rel='stylesheet' href="{% static 'CSS/loader.css' %}" media='all' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.w3schools.com/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+
+</style>
+
+
+<script>
+
+
+
+</script>
+
+
+</head>
+<body>
+
+    <div class="loader overflow">
+    <div class="circle-square">
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="green"></div>
+        <div class="yellow"></div>
+    </div>
+</div>  
+
+  <header class="header-container">
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row d-flex no-gutters justify-content-between align-items-center" style="flex-wrap: nowrap;">
+                <div class="logo">
+                    <a href="/">
+                        <img src="/static/static_images/logo-new.svg" alt="">
+                    </a>
+                </div>
+                <div class="hright d-flex flex-wrap align-items-center">
+                    <div class="navigation mr-4" style="margin-right:3rem !important;">
+                        <div class="main-menu">
+                            <ul class="d-flex align-items-center">
+                                <li><a href="/">Home</a></li>
+                                <li>
+                                    <a href="#">Services</a>
+                                    <div class="mega-menu-dropdown">
+                                        <div class="container">
+                                            <div class="row no-gutters">
+                                                <div class="col-4">
+                                                    <div class="mm-title">
+                                                        <h5 class="title">Services</h5>
+                                                    </div>
+                                                    <div class="description">
+                                                        <p>We aim to make the world a superior place by transforming exceptional ideas into a remarkable output. We are specialists with a productive history of building hundreds of programming products. We will assist your task with succeeding! and
+                                                            furnish an enriched client experience.</p>
+                                                    </div>
+                                                    <!-- <div class="mm-cta"><a href=what-we-do// class="cta-link">Overview</a></div> -->
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="mm-item">
+                                                                <a href="digital/transform/" style="text-align: center">
+																<img style="width: 30%;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAAH4UlEQVR4nO2deYxeUxTAf19b3aZoS1FrqKW0RVFLkAZFIrSiKm1jrQpBCH8R1BqCxFJrQitCYi2VVpQgpS0JhlKKFJHaamtpDdN2OuOPMyPj9Zt3z93e9772/pL7z7z3zvLOfPfde98590EikUgkEolEIpFIFEul1gZUoQLsBRwM7AoMALYAegG/AD8AS4EPgbWBdfcBxgBHAYOBZuBbYF67vs2GLYBxwGzgD6BN0ZqB+cBFwDae+rsBlyIB70rfu8ARnnpKTz/gZuBndEHoqq0FHkZ+Ubb0Rf4RNHrWARc66Cg9FWAy8D1+gagWmGvQd8UV4BlLHa3A6Y5+l5JBwKuEDUS2Xaa0ZbKj/FX4d5OlYF9gOXGD0YZ0gT0U9nzpoeNmx3tQGoYDvxI/GB1td4M9B3jK/9z5TuTQLYbQKmyLPDi3LUgfQIPh+CGe8ocCW3rK2AjNzzqEjjnAEIdrfwJ+BLojcxPTTbZhUAAZ2wFrAsgplCux6woagYuBHTNyegAjgRuBZQo5ww12nW9pV7W2ldWdKAF7AqvRObccOEMpd5hCnikgxyjtyhs41B3z0Tm3ALvniyYgwwwyegIrlPZVaw9Z2FsKxqBzbBaydGJDiIAA3KS0MdtakVFaXTELs2PvIQt6toQKSF/gE4WsbLvNweaa0h9Z98lzqhmZKLoQKiAAe2M3WZ1NMaPToEzC7Nh9HvJDBgRkCPyGQuZ1FDd3C8pD5DvWgtu8pIPQAQGYoJAZnVjRHmk4vgj4OpLuuiZWQPYwHJ8fSW/dEyMgPTHPKT6NoHeTIEZAemN+QVSXs9wiiDF826A4p3cEvVmeBf6xOH9ALENsiBGQJmQFNG9pum8EvVn2K0BHcGI91FcYjo+IpLfuiRGQHpi7itER9CaqcCDwAeYJVhN+3ZZmYhi6hU7Ki0o35MXRevQOXu6hrxYBafSwt1D6AS9i7+D37de6UIuATHa0tVC2Az7C3ckZjnqLDMh6ZFGxEHyGvf2RhLcDPWRMAd5H0kBDMwP4zeP6DUhi9zzgmyAWRaQvsJAw/4GtSFKDDTFWe+uaRwnfNTwHDFTqTwHpxHj0N3kJ8pPXnLsWyb3SkALSzvbA7+hu8OPI+/KB6LLc77SwY3+FvFoGZABScDQWKf6JlrF5H7pg3MP/V3yPRt6hd3X+CuySzk5Q2FCLgBwPzEUGBJ1taQHeRDJxgrEH0q2YbsQTXVw/oYqhHW2qpS2XKOwoMiC9gPsVNrUBj7Wf780MhbJG8pfWz2TjoDZiv6b2ssKWogJSwX5iPBfJV64qTEMD0q3kzaxbgFHAYoOsY4DnkWdLG7LQuEBpB0jq0CeY51BnUMz8YSwwzeG6a4BbXZWehTnqD1jIG4xkxD9taUd34DWFLfXQVuORgW/qItbhVnBpU15QAaYb7Ki3dpGF///RDampyxM820WwBYNxW8Ase3su66hmLWsfZN0qj40Ee9IdmfMMR/rocwlbrFMWdna56BzMkc4W1/gyTaFzU2jvZh3XDDdNUVyBlJ0l7Pku+wdNQEwLfikl1J3Xs3/QBMSUr/Snmy25tEWQWTbWAC9k/6h5qJum+eudzIlPURPDk4EbHK67jSov0DQBMf0CylqJuhT4rAA9HyJ5ZuMtrpkD3F7tgKbLMgUk9AgLuu6yWpEUUW21bhG0IQkQ05XnP4YstLa6KryQ/KFbC+FTQ6/tJL8ZGR5eDezSfrysL6iORSbJLWx8j94Ajguh5HDMzh8bQlEnhiKLkCOQ8oYsZQ1IB1sDBwGnAEeifzWtogFzAty9IRUqKHtAnNE8Q5qQDJM8JuFW3pzIoH0x9JLh+CDgbE9bEuhfUO2MjOnzdlz4Cen7V/sapWAY5rK4u/Gv1GoCXqGkqxFPYe63HyzIlqJTSa8vxi07RiFjZ5MDEwuwpRbJ1mcW4Jc1mh08/yb8MDhLLQJSyo2Ud0NuuMn4v4CTItqRCnY6cRk6B1qAKyLZUIuAtEXyxZsKuryojub0It9ACkiGbYAv0DnxC+HLrzfZgLjeqN+RZ8Q7SDJCHoOQ3deKrtFbiv3GAaY9WkrPCGRCWHS3lbZn6oIlSGb7csN5ozz1bDaE2DjgK8zFmydSh9vi1YJQOzksMhzfCXk3kDAQKiALMS8q+mwUsNkQKiBrkRf3eYympOtBSL29phLY5mMxNWc0ujmJaZisIeQoayhSj66di7xIF8U2ZWQxZoca8U8dChWQBuS9iu0E0bnQpmjGoXNoPpII4EqogNyitDfbWpFK4NJTAd5C59TXSOmwCyEC0gu/r8PF2A4kCkPJL4Hu3JqBu4AdLOT3Qx6uvgHZrD5XcSl2zjUBjwCn0nVh6TDgDszVXNqATLW0sVoraxptVZ7Ezcl1yOx/IZIF+DZ2oyBtQK5ytK9z89kuvXB6IvUPvk7HullTAuhw3YCtZjQQ/yOS1doqzB+J0eyXkteWut2S2tMLmEmxAblJaZv2JZuPjtJyAfoPhPm0meg/oTTRUcdKSrITti+7of8ys237GPv0owq6BMDOrRU4zVJP6TmS6tsYubQPgPNwX1/qg9T6aXStQ37pmyx7Ijt+foQ+OK3IA3U65g/HaKkgq715n9FbBBwaSF+uIWVhAHAY8pGuIcgIbSukv/4NSaxYhiRWrIxkQ2+kyulopFTvH+BbJOHatMtRIpFIJBKJRCKRSNQl/wLMICUMHUmLMAAAAABJRU5ErkJggg=="/>
+                                                                    <div class="text">Digital Transformation</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/devops/" style="text-align:center">
+															<img style="width:30%" src="data:image/png;base64,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"/>
+                                                                    <div class="text">DevOps</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/qa/automation/" style="text-align:center">
+															
+															<img style="width:30%" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDE0IDMuOTkwMjM0NCBDIDguNDg4NjY2MSAzLjk5MDIzNDQgNCA4LjQ3ODkwMDggNCAxMy45OTAyMzQgTCA0IDM1Ljk5MDIzNCBDIDQgNDEuNTAxNTY4IDguNDg4NjY2MSA0NS45OTAyMzQgMTQgNDUuOTkwMjM0IEwgMzYgNDUuOTkwMjM0IEMgNDEuNTExMzM0IDQ1Ljk5MDIzNCA0NiA0MS41MDE1NjggNDYgMzUuOTkwMjM0IEwgNDYgMTMuOTkwMjM0IEMgNDYgOC40Nzg5MDA4IDQxLjUxMTMzNCAzLjk5MDIzNDQgMzYgMy45OTAyMzQ0IEwgMTQgMy45OTAyMzQ0IHogTSAxNCA1Ljk5MDIzNDQgTCAzNiA1Ljk5MDIzNDQgQyA0MC40MzA2NjYgNS45OTAyMzQ0IDQ0IDkuNTU5NTY4NyA0NCAxMy45OTAyMzQgTCA0NCAzNS45OTAyMzQgQyA0NCA0MC40MjA5IDQwLjQzMDY2NiA0My45OTAyMzQgMzYgNDMuOTkwMjM0IEwgMTQgNDMuOTkwMjM0IEMgOS41NjkzMzM5IDQzLjk5MDIzNCA2IDQwLjQyMDkgNiAzNS45OTAyMzQgTCA2IDEzLjk5MDIzNCBDIDYgOS41NTk1Njg3IDkuNTY5MzMzOSA1Ljk5MDIzNDQgMTQgNS45OTAyMzQ0IHogTSAyNSA4IEMgMTUuNjIyOTk4IDggOCAxNS42MjMwMDUgOCAyNSBDIDggMzQuMzc2OTk1IDE1LjYyMjk5OCA0MiAyNSA0MiBDIDM0LjM3NzAwMiA0MiA0MiAzNC4zNzY5OTUgNDIgMjUgQyA0MiAxNS42MjMwMDUgMzQuMzc3MDAyIDggMjUgOCB6IE0gMjUgMTAgQyAzMy4yOTYxMjIgMTAgNDAgMTYuNzAzODgzIDQwIDI1IEMgNDAgMzMuMjk2MTE3IDMzLjI5NjEyMiA0MCAyNSA0MCBDIDE2LjcwMzg3OCA0MCAxMCAzMy4yOTYxMTcgMTAgMjUgQyAxMCAxNi43MDM4ODMgMTYuNzAzODc4IDEwIDI1IDEwIHogTSAyNSAxMiBDIDIzLjg5ODk1NCAxMiAyMi44MzAwOCAxMi4xMzMzNTQgMjEuODA4NTk0IDEyLjM5MDYyNSBMIDIxLjgwNjY0MSAxMi4zOTA2MjUgQyAyMC41MzU4MzIgMTIuNzExMjk2IDE5LjkxOTg3OCAxNC4yMTE5MTEgMjAuNTcwMzEyIDE1LjMzNzg5MSBMIDI0Ljk5NjA5NCAyMyBMIDI0Ljk5NjA5NCAyMy4wMDE5NTMgQyAyNS4zNTI3MTQgMjMuNjE3NTI0IDI2LjAxMjg4NyAyNCAyNi43MjY1NjIgMjQgTCAzNS41NzQyMTkgMjQgQyAzNi44NzU2OTUgMjQgMzcuODYzMTQ5IDIyLjcxNDU0OSAzNy41MDc4MTIgMjEuNDU1MDc4IEMgMzUuOTY2NTE2IDE1Ljk5MjI1NCAzMC45NDQxNTMgMTIgMjUgMTIgeiBNIDI1IDE0IEMgMzAuMDQ5ODQ3IDE0IDM0LjI3OTMyOCAxNy4zODA4NzEgMzUuNTgyMDMxIDIxLjk5ODA0NyBDIDM1LjU4NjczMSAyMi4wMTQ1NzcgMzUuNTk2NzI5IDIyIDM1LjU3NDIxOSAyMiBMIDMyLjI5Mjk2OSAyMiBDIDMwLjkxMjk5NCAxOC42NjgwMSAyNy41MTk1ODkgMTYuNzEwNzUgMjMuOTQ3MjY2IDE3LjE4MzU5NCBMIDIyLjMwMjczNCAxNC4zMzU5MzggQyAyMi4yOTExNzQgMTQuMzE1OTE3IDIyLjI4MzcyNSAxNC4zMzM0NzggMjIuMjk2ODc1IDE0LjMzMDA3OCBDIDIzLjE1NzQxOCAxNC4xMTMzNDIgMjQuMDYxMDQ2IDE0IDI1IDE0IHogTSAxNi45MDYyNSAxNS4zNTM1MTYgQyAxNi40NTYxOTIgMTUuMzk1MDQyIDE2LjAxNzY0MyAxNS41ODYwMTggMTUuNjc1NzgxIDE1LjkzNzUgQyAxMy40MDAyOTkgMTguMjc5MDQ4IDEyIDIxLjQ4NDI2MSAxMiAyNSBDIDEyIDI4LjUxNTUzNCAxMy4zOTgzNDMgMzEuNzIwOTQ5IDE1LjY3MzgyOCAzNC4wNjI1IEMgMTYuNTg1OTYzIDM1LjAwMDMwMSAxOC4xOTE5ODYgMzQuNzg4OTU0IDE4Ljg0Mzc1IDMzLjY2MjEwOSBMIDE4Ljg0NTcwMyAzMy42NjIxMDkgTCAyMy4yNzczNDQgMjUuOTkwMjM0IEMgMjMuNjM1MDM4IDI1LjM3MDc2NCAyMy42MzE1MTkgMjQuNjA0OTU4IDIzLjI3NTM5MSAyMy45ODgyODEgTCAxOC44NDM3NSAxNi4zMzM5ODQgQyAxOC41MTc3NjEgMTUuNzcxMzU5IDE3Ljk1NDI0NiAxNS40MzczMDYgMTcuMzU3NDIyIDE1LjM2MTMyOCBDIDE3LjIwODIxNiAxNS4zNDIzMzQgMTcuMDU2MjY5IDE1LjMzOTY3NCAxNi45MDYyNSAxNS4zNTM1MTYgeiBNIDE3LjEwOTM3NSAxNy4zMzIwMzEgQyAxNy4xMjE3NDUgMTcuMzE5MzExIDE3LjEwMTI4MSAxNy4zMTcxMDEgMTcuMTEzMjgxIDE3LjMzNzg5MSBMIDE4Ljc1OTc2NiAyMC4xNzk2ODggQyAxNi41NjA0NzQgMjMuMDQwOTMzIDE2LjU2MjYzNyAyNi45NTgwOTEgMTguNzU3ODEyIDI5LjgxNjQwNiBMIDE3LjExMzI4MSAzMi42NjIxMDkgQyAxNy4xMDEwNDEgMzIuNjgzMjY5IDE3LjExOTMyMiAzMi42ODAxMjkgMTcuMTA3NDIyIDMyLjY2Nzk2OSBDIDE1LjE4MSAzMC42ODU0NCAxNCAyNy45ODY0NjYgMTQgMjUgQyAxNCAyMi4wMTQzMjcgMTUuMTgzNTI5IDE5LjMxNDM3NiAxNy4xMDkzNzUgMTcuMzMyMDMxIHogTSAyNS45MDYyNSAxOS4wNjQ0NTMgQyAyNy42NjgwMzYgMTkuMzMxNzUzIDI5LjE1OTc4NyAyMC40NDA4MzIgMzAuMDgwMDc4IDIyIEwgMjYuNzI2NTYyIDIyIEwgMjYuNzI2NTYyIDIxLjk5ODA0NyBMIDI1LjA1MjczNCAxOS4xMDE1NjIgQyAyNS4zMzY1MTUgMTkuMTA0MDYzIDI1LjYyOTg3OCAxOS4wMjI1MjMgMjUuOTA2MjUgMTkuMDY0NDUzIHogTSAxOS44NjcxODggMjIuMDkzNzUgTCAyMS41NDQ5MjIgMjQuOTkwMjM0IEwgMTkuODYzMjgxIDI3LjkwMDM5MSBDIDE4LjgzMjg0IDI2LjA3NjkzOCAxOC44MzM1MTUgMjMuOTE4NTY0IDE5Ljg2NzE4OCAyMi4wOTM3NSB6IE0gMjYuNzI2NTYyIDI2IEMgMjYuMDEyODg3IDI2IDI1LjM1MjcxNCAyNi4zODI0MjkgMjQuOTk2MDk0IDI2Ljk5ODA0NyBMIDI0Ljk5NjA5NCAyNyBMIDIwLjU3MDMxMiAzNC42NjQwNjIgQyAxOS45MjExNDkgMzUuNzg5ODAzIDIwLjUzNjc4MiAzNy4yODg5NDIgMjEuODA2NjQxIDM3LjYwOTM3NSBMIDIxLjgwODU5NCAzNy42MDkzNzUgQyAyMi44MzAwMzMgMzcuODY2NjQ2IDIzLjg5ODk1NCAzOCAyNSAzOCBDIDMwLjk0NDE1MyAzOCAzNS45NjY1MTYgMzQuMDA3NzQ2IDM3LjUwNzgxMiAyOC41NDQ5MjIgQyAzNy44NjMxNDkgMjcuMjg1NDUxIDM2Ljg3NTY5NSAyNiAzNS41NzQyMTkgMjYgTCAyNi43MjY1NjIgMjYgeiBNIDI2LjcyNjU2MiAyOCBMIDMwLjA4MDA3OCAyOCBDIDI5LjAxNjE5NiAyOS44MDEzNzkgMjcuMTQ3MDk0IDMwLjg3OTM3NSAyNS4wNTI3MzQgMzAuODk4NDM4IEwgMjYuNzI2NTYyIDI4LjAwMTk1MyBMIDI2LjcyNjU2MiAyOCB6IE0gMzIuMjkxMDE2IDI4IEwgMzUuNTc0MjE5IDI4IEMgMzUuNTk2NzM5IDI4IDM1LjU4NjcxMSAyNy45ODUzNzMgMzUuNTgyMDMxIDI4LjAwMTk1MyBDIDM0LjI3OTM0IDMyLjYxOTA4MiAzMC4wNDk4NDcgMzYgMjUgMzYgQyAyNC4wNjEwNDYgMzYgMjMuMTU3Mzg5IDM1Ljg4NjY1MSAyMi4yOTY4NzUgMzUuNjY5OTIyIEMgMjIuMjgyNzM1IDM1LjY2NjMyMiAyMi4yODk4MzQgMzUuNjg0MzU5IDIyLjMwMjczNCAzNS42NjIxMDkgTCAyMy45NDcyNjYgMzIuODE0NDUzIEMgMjcuNTIyMjI3IDMzLjI4NjE1MiAzMC45MTIzNzYgMzEuMzI3NzA0IDMyLjI5MTAxNiAyOCB6Ij48L3BhdGg+PC9zdmc+"/>
+                                                                    <div class="text">QA Automation</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a style="text-align:center" href="/ux/">
+															<img style="width:30%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAACM0lEQVRIie2WvW4TQRSFPwWcAqwU0IQWiojYET+CGCJ6eIe8Az9FiiglSCBBcLDTRQhalAdAscUjUNmhT4wELXEcO9gQijkj3zizuzZrJIocabSre8+9Z2Z37p2BU/ynyAFFoA7sa9Rly/0LwUmgDPSAo4jRA0rijk20quRtYA2YB85rFIA3QEec6rjEy0q4C8zF8K4BDXFLaUVzuE/YThC14h3FzKYRLuJWUBwhpqSY12mEt5Xk9ggxBcXU0gg3lSQ7QkxWMXt/KzoN/FSSA6AFfMFttrzhzQHr8rXEPVLs9CiCZ4AVkyA0fgOvgFW9R/EOgGVgIkn0LLBJvyH4fzw42sB94IHeQ5xt+g3ngxYUiRcifgNuAVcId6tHJuZJwN8DLuM25XfZnkeJzgJdXB3aXbwaWIn9dBO4/2s5L41/HjhU7pmQsK+/jQF7BtgySR8GYu2qPyrG4q18ayFhP+uFgC+joC5wI+C/KV8Rt08GcU+56yHhlpwXQk5hBljClZM/JPKyBT+jcFG590POPYZrFn6CdjQTYqbE++ENdpM09Exq7jtD2ix8zt2QcEXPxYQkn4a0WficlZDTH4Ed3PEWhTzwi+M1ezWGfx1XTrFHpS+pRoL4eyP8LkH0KzGl5JGhf83paCJ3cBvuHO7IK2sFXvhQvII4WeDuAK/Kydo+gUklirvYtXBt8zHxh0lXK00UtcjhbhE1XLk0gc/AU44fd5eAZ/J5Xg3XalNdf04xFvwBO6XctK4t1R4AAAAASUVORK5CYII="/>
+                                                                    <div class="text">User Experience(UX)</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/business/analytics/" style="text-align:center">
+															
+															
+															<img style="width:30%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAE+klEQVR4nO2bTWgdVRTHf4lJtWhSWrGoWCMpbUVQ/K6rGIq40apgF1ZxYxWsuHDhx0awRbNQurTtqrpQCbSR0hdRRIi2uPDZdFFR2i6iYvyALKqmLlLTdFycM859k5k3d97cufOavD9c5s7ce8499+Oce+7HQAfLG10Vlr0CeBy4EfgF+Bj4t0J5vGIAOAkERjip35cFjtJY+TB8WaVQvrCJqMJ7gauAfca3jT6F6fZZmOJaIz4G/AMcMr5d51OYnoz0LcA9jsscNOJB7AnwJHCfw/ICYBKYyEO0AumVJD11GYa0vCEPZR0Eem0bYLcHgb4HVml5q4AfPJT5hm0D/KEE3wBrbInaFGuAOlKf3+KJaUZwtT4ngbPlyOUNZ4HjGl/UmWlGsI7o5bPAAvB7KaL5wfVIPUBGtBXuAM5Tvk76DOeB220bIGyEo8BcGwhfJMwBX+WtvIlhg9lwq0w8w1rmKjzBtkKWJ+gDlyNGahIxvjcATwCXFeA5mJ3FHmWrwIvKe0bfx3BrA9peBb4FvgPG9X2CNtsY6RhBB1gP7Ae+0Od6T+VmwocRHAY+Aa7U9weAp4GHED/DFlcAO5ANlBALwCgJPr5LFFGBXuBnpZ1HLP28vv9Evg4IjWU8jBWRuWwVuJVoo/Ml4G59Atyk6bY4TvLC7OqWpaP8Bggy0udy8Koju1PTrYvTGoqoQA8y1EMVOEGkAlPkc3YGkfMD08cPSN5JbhsVuAC8qvEe4E4ivf8aMWI2GEQWNOv0fYTIgJbuMxQdAeYZwATwq/H+lgWPeM+HNPcDNaJ9RVcyO2U2YtDu1W8DwI/G93ea0A8QqVBWXlcyO2O2BVGBAHF1VxppNo0Qr/zbHmRumVk38BwyJA8jU92M0swCGxJo4kP7GHAEeB45PUoa9i5ldsasG1nIpK3GtjfhvYFoVjDDBVqvvI3MDcIXxQ7gYY1P0zhPH0Jc1TQMEc0KJm04PY4ArzuQMRUuGmCrPqeRobuJqCJZru6DTWiPUXLloXpPcGWTNC/nES4aoKbPdcAZDaHD8lmJtN5gYwRrLDZkn5KtAmm0n1vQFpH5f7jYD7gIPAo8g9iDAOm9A2S7unFakIZ7D5kJ2gKdLbGljGbX5PqAV5CparN+OwH8WbZQDrAauEvjdcSm7AHO2TJYS6OvvhTClNarAWkj4CPkrg7IQmYmJd+lgLXAbRr/ENmQzcQs0moHSxLKN8L7Tn/FE9KMYOjBVXmV1gvS/IBx4ClgG3KFdamoQK1ZxjjRFNUbLtdG8Jp4RbOmwZeBe3F/gtRHNLWaqJNjqrLEPHIAuwe5lVo5ukg/Aq+xDJyzrEuYu6oTrXw8giyQAuAU4lkG+jyl8QXN5wVFp7nXEr6l7d7ejOh4P+JnbEaOyoeRQ4+dCemnc8qzHfkDxcQossFaCpKGcBL6iO4CX0R+lQE51gqIjre2Eo2QM0R3iW0R8jND5avBLuB94BZ93438H5SEceBNjW8EPqCNjKJtb8dhGr0jNFYoPgJg8SyRZhRz93ZRtNIAptE7zeIhndQAsFhltiXwdtIAeRycPEdTIEYvHMKzwGPA35a05xA7ERrFA8j/BaZRHNV0E6UZu7zox25am9A8ab+zxKfNfrdilof92Dk2LyC9vbNJnl0Gr32uBCwb7yICH6a4Fe9WPoHyvSTQg1y3d7WI6lV+Re4Pd9BBAv4DzAjjPLJo/YQAAAAASUVORK5CYII="/>
+															
+                                                                    <div class="text">Business Analytics</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/cloud/counsulting/" style="text-align:center">
+															
+															
+															<img style="width:30%" src="data:image/png;base64,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"/>
+                                                                    <div class="text">Cloud Consulting</div>
+                                                                </a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">Solutions</a>
+                                    <div class="mega-menu-dropdown">
+                                        <div class="container">
+                                            <div class="row no-gutters">
+                                                <div class="col-4">
+                                                    <div class="mm-title">
+                                                        <h5 class="title">Solutions</h5>
+                                                    </div>
+                                                    <div class="description">
+                                                        <p>We have acquired the ability in arrangements driven by arising innovations, utilizing new Agile-at-scale improvement philosophies and automated periods, tackled your business issues with a demonstrated amalgamation of product and service.
+                                                            With more than thirty years of honorable involvement with this industry, construct a creative, customer-focused solution.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="mm-item">
+                                                                <a href="/fullstack/" style="text-align:center">
+															
+															
+															<img style="width:30%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABG0lEQVRIie2WQWrCQBSGvxTBduEFvIDeIEI3bosHsddwVy+ixyjURt0WBHFrGryEki58A3Eykz7TaGnND0Pgf/+8f+bNvCRQ45YwAD6B9EIjBp5cxvEFTc3YGrMgY5yeWaGyCADurmSWw+0ZNxxc4OCqwMkd+rOlfgXmP12E6TUb98ASmFl8R/RJhnsHFjKnML9mxyMgBFoW35fnW4ZrAT2Zo4ZrxyGwBw7AoxWbin6o1Psqmgs0gZVwLw59IrGOxY+FXwMPvvzay2W3WBdoAztgU6BVvYbPKfWzaCdKvS9/YcCU7iPDuc4X0aQyR5u/sJ0WHFvFwHe+Ece+/radVAEHImshGlRiXAalbnXlcH2drvIn8ms7rvH/8QUOUYNHUkOhHwAAAABJRU5ErkJggg=="/>
+                                                                    <div class="text">Full Stack Development</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/blockchain/" style="text-align:center">
+															
+															
+															<img style="width:30%" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAEkElEQVR4nO2aTWhVRxTHf4kkSiVKpRoULGgRqYumXRREhCZ1o1JXxq07ta7cCIKl4LKrqsuu+rkquJIoqAUXfm1cqKAu3PgNFSJqadFo4mJmcueezL13Zu69b14f7w8heZlz53/mvDNnzpxzoY8+UuFr4BZwA/gqsS4dxSjwGzALzFk/fwKrEurVOgaBg8Bz1IL/BY4C3+u/54BpYL+W7SmMAVfIvu2/gI3W+HrgjDV+Hfiywzq2gqXAD8AMamGPgb0l8ruA+1p2BjgJLGtZx9YQuxhptCeUG63rsB6Yor47V22brsMQcAj4B6Xwc/15UY05B1Df/jOywHkMWFxL00B8g5/rXkYpOYs65po80uTRednjmWUo3WthE/AGeEr1PpRn+mhdcgsrgJ/I5w5l2AU8QMWRz+oQf0p+H54DNhTIGhn7TD9AvTN9EPhWz2XPXWSADVpHI3NFr6EWzD78W0/6BhWllwg5Q7qOdoOgywDDwBHgPzLjH6LhhOpD1FH2TpPcA3ZY41Ix+xh8h3LhJo5ByTMB3CEff1Z6rikKW4GbliKngY8digF8gIrar/E7031yB8OzGrVY8/kusC1yTcEYAg4DrzT5S9wGMPgcuGrJnEHlCwYyFb6qn3HByBjOV1qXoejV1MBa4JSlVFl0HkQFRTugfad/QgKnzXVK65AcO/E7nkDlB/I6HJI7mGd2RmnaInwNYDBuPTPeIk/HEKNYp54pRM8VHkLRN0BqBVKjb4AW5gyJ6KGYaHHu2rhE/JleBZk7XIrUsVWYipBJj30qQlUG6IqKUCiK8npzt99nyUoDHCDrC8j7wxT5+0NyVLW2JoFHZDc7c2V9AXykZWwDjJJ5z22y6/AjYHcEf2sYBX4nfymZBX5l4b5fg+oF2LI/W+PSA34Rso/1HJL/D0/+RhHa2pIecNtS2FyHzWdZSr8DvCXzgMkI/kbxBXDNUnAKVfoy+AQ4S/6bs2PAGO7rcFkdUXI+Efx2PJD8hrM2RoDjZPvxIe79CKoud4G8a94Clgu5kOvwcj2HPed5zeXCHvJe96NeQxSkC1dNtp1sMRfJB7FJh/w4qrR2A3fyJPkvkhlte4keI8AJsi1U9qU5EVKekjhOthjpwrIMFsM/oTl84Nq2pfypW1up+ZO3tpLw28fFFv17ANX0GGhQgRlU00Jy4fhfKv7SIykWIa2t1PzzAylaW93Av2CgU62tbuF3DrTZ2uo2/uIBVI+96i0vX7cNMUAn+UsVgOZbW93GX6mAgettjTn83/SMNUDb/N4KGDTd2krNH6xA088k4e/3BVIrkBp9A7Q8/6aaHIN6jo6g0YiKuoJOs7CgURUETfvL9AWmKX7pss7JsQBNt7Y2U1zScrW2bH5ZUtscwW/Dq7U2TINZlUZIUXNYj9myrqJqCH9R9lhUVAXiXllzQba27FK5rM/JXF6W1Zvg961JzmM31VVhlwIjWla2tkJz+ab5o1B1HZUK+FxHQ3L5NvijUORO5rN0YZ9SelVfoIzfbCGbP7aU743Q1lav8c+j7nX0/84/jxAX7kX+PnoC7wEFNCQfF76JTQAAAABJRU5ErkJggg=="/>
+                                                                    <div class="text">Blockchain</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/erp/" style="text-align:center">
+															
+															
+															
+															<img style="width:50%" src="/static/static_images/erp.svg" />
+                                                                    <div class="text">ERP</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/crm/"style="text-align:center">
+															
+															
+															
+															<img style="width:30%" src="/static/static_images/crm-browser.svg" />
+                                                                    <div class="text">CRM</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/health/tech/" style="text-align:center">
+
+															
+															<img style="width:30%" src="/static/static_images/medical-device.svg" />
+                                                                    <div class="text">Health Tech</div>
+                                                                </a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">Industries</a>
+                                    <div class="mega-menu-dropdown">
+                                        <div class="container">
+                                            <div class="row no-gutters">
+                                                <div class="col-4">
+                                                    <div class="mm-title">
+                                                        <h5 class="title">Industries</span></h5>
+                                                    </div>
+                                                    <div class="description">
+                                                        <p>We oblige various region business solutions requirements, ranging from healthcare, telecom, financial, insurance to logistics. With a spectrum of cloud solutions, accelerate your digital transformation aims ahead. We deliver business process
+                                                            enzymes and services that are premium quality as well as savvy.</p>
+                                                    </div>
+                                                    <!-- <div class="mm-cta"><a href=what-we-do// class="cta-link">Overview</a></div> -->
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="mm-item">
+                                                                <a href="/fintech/" style="text-align:center">
+															
+															
+														
+															
+															<img style="width:30%" src="/static/static_images/cash-flow.svg" />
+                                                                    <div class="text">Fintech</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/insurence/" style="text-align:center">
+															
+															
+
+															
+															<img style="width:30%" src="/static/static_images/person-insurance.svg" /> 
+                                                                    <div class="text">Insurance</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/healthcare/"	style="text-align:center">
+															
+															
+															<img style="width:50%" src="/static/static_images/online-medical-report.svg" /> 
+															
+                                                                    <div class="text">Healthcare</div>
+                                                                </a></div>
+                                                        </div>
+
+                                                        <div class="col-4">
+                                                            <div class="mm-item"><a href="/telecom/" style="text-align:center">
+															
+															
+															<img style="width:30%" src="/static/static_images/antenna-dish.svg" /> 
+                                                                    <div class="text">Telecom</div>
+                                                                </a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">Company</a>
+                                    <div class="mega-menu-dropdown">
+                                        <div class="container">
+                                            <div class="row no-gutters">
+                                                <div class="col-4">
+                                                    <div class="mm-title">
+                                                        <h5 class="title">Company</h5>
+                                                    </div>
+                                                    <div class="description">
+                                                        <p>We are an Automation, Data Analytics, Cloud enterprise, we pass on liveliness and a connecting way of managing the key digitalization factors. We convey what we endorse and your prosperity is our most elevated inclination.</p>
+                                                    </div>
+                                                    <!-- <div class="mm-cta"><a href=what-we-do// class="cta-link">Overview</a></div> -->
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="mm-item">
+                                                                <a href="/aboutus/" style="text-align:center">
+															
+															
+															<img style="width:30%" src="/static/static_images/crowd.svg" /> 
+															
+                                                                    <div class="text">About Us</div>
+                                                                </a></div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="mm-item">
+                                                                <a href="/contact/" style="text-align:center">
+
+															<img style="width:40%" src="/static/static_images/contact-us.svg" /> 
+															
+                                                                    <div class="text">Contact Us</div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="mm-item">
+                                                                <a href="/careers/" style="text-align:center">
+															
+ 
+															
+															<img style="width:25%" src="/static/static_images/career.svg" /> 
+															
+                                                                    <div class="text">Careers</div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="mm-item">
+                                                                <a href="/culture" style="text-align:center">
+															
+															
+															<img style="width:30%" src="/static/static_images/teamwork-together.svg" /> 
+                                                                    <div class="text">Culture</div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="mm-item">
+                                                                <a href="/csr/" style="text-align:center">
+															
+															
+															<img style="width:40%" src="/static/static_images/marketing-automation.svg" /> 
+                                                                    <div class="text">CSR</div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact-us">
+                        <a href="/contact/" class="d-flex align-items-center">
+                            <i class="fa fa-phone"></i>
+                            <span class="text">Talk to Us</span>
+                        </a>
+                    </div>
+                    <div class="sidebar-toggle flex-wrap d-flex align-content-center justify-content-end">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header> 
+
+
+    {% block content %}
+    {% endblock %}
+	
+     <section class="home-client-says" style="background-image: linear-gradient(135deg, #dfe9f3 10%, #ffffff 100%);">
+     <div class="container">
+         <div class="section-title aos-init aos-animate text-center" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+             <h2 class="title"></h2>
+             <div class="sub-title underline underline-center relative d-inline">What Our Clients <span>Say</span></div>
+
+         </div>
+         <div class="client-says-wrap">
+             <div class="client-says-slider">
+                 <div data-aos="fade-up" data-aos-delay="350" data-aos-duration="1500">
+                     <div class="d-flex flex-column flex-wrap align-items-center justify-content-between">
+                         <div class="thumb" style="margin-top:40px; position:relative;">
+                             <img src="/static/static_images/person-1.jpg" alt="" loading="lazy">
+                             <div class="quote-icon" style="position:absolute; top:-50px; right:50px;">
+                                 <i class="fa fa-quote-left" aria-hidden="true" style="font-size:60px"></i>
+                             </div>
+                         </div>
+                         <div class="description d-flex flex-column align-items-start justify-content-between text-center" style="padding-top:3rem; padding-bottom:3rem;">
+                             <div class="text">
+                                 <p>Origin Hubs provides best classroom training with subject experts, preparing to build the perfect career with hassle-free visa process. Their team is highly experienced and very approachable. When I approached they suggested me best course and placed me in the top
+                                     companies. Without their dedicated support I would have become extremely challenging. I highly recommend them to all the students who are serious about their career to pursue their education abroad. </p>
+                                 <div class="author">
+                                     <span class="name" data-aos-delay="400" data-aos-duration="1700">Lokesh</span>
+                                     <!-- <span class="designation" data-aos-delay="450" data-aos-duration="1900">CEO and Co-Founder, XXXXXX</span> -->
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div data-aos="fade-up" data-aos-delay="350" data-aos-duration="1500">
+                     <div class="d-flex flex-column flex-wrap align-items-center justify-content-between">
+                         <div class="thumb" style="margin-top:40px; position:relative;">
+                             <img src="/static/static_images/person-1.jpg" alt="" loading="lazy">
+                             <div class="quote-icon" style="position:absolute; top:-50px; right:50px;">
+                                 <i class="fa fa-quote-left" aria-hidden="true" style="font-size:60px"></i>
+                             </div>
+                         </div>
+                         <div class="description d-flex flex-column align-items-start justify-content-between text-center" style="padding-top:3rem; padding-bottom:3rem;">
+                             <div class="text">
+                                 <p>I would like to thank Origin Hubs team who guided me throughout my course, guidance to get place and my visa process journey. I my opinion the team is exceptionally wonderful with 10+ years of experience. Especially their classroom trainings and the way they
+                                     guided me throughout the training, job process has been very helpful, timely and constructive. Origin Hubs team’s support, knowledge, experience, and understanding of the students needs made the process very smooth and stress-free. I would recommend anyone
+                                     looking for training and placement with visa to approach them. </p>
+                                 <div class="author">
+                                     <span class="name" data-aos-delay="400" data-aos-duration="1700">Mounika Goddem </span>
+                                     <!-- <span class="designation" data-aos-delay="450" data-aos-duration="1900">CEO and Co-Founder, XXXXXX</span> -->
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div data-aos="fade-up" data-aos-delay="350" data-aos-duration="1500">
+                     <div class="d-flex flex-column flex-wrap align-items-center justify-content-between">
+                         <div class="thumb" style="margin-top:40px; position:relative;">
+                             <img src="/static/static_images/person-1.jpg" alt="" loading="lazy">
+                             <div class="quote-icon" style="position:absolute; top:-50px; right:50px;">
+                                 <i class="fa fa-quote-left" aria-hidden="true" style="font-size:60px"></i>
+                             </div>
+                         </div>
+                         <div class="description d-flex flex-column align-items-start justify-content-between text-center" style="padding-top:3rem; padding-bottom:3rem;">
+                             <div class="text">
+                                 <p>I always wanted to study abroad and build great career. But I was so confused with lot of doubts how to go about with the procedure. When my friend suggested me Origin Hubs, they helped me and guided me. Right from the beginning of my coaching, short listing, job
+                                     placement, and visa process, they are very supportive. Origin Hubs is the right place for all the students to start their career abroad. Whenever a friend of mine shows interest in building their career in abroad I totally recommend Origin Hubs to them. Thank you
+                                     Origin Hubs for making my dream come true. </p>
+                                 <div class="author">
+                                     <span class="name" data-aos-delay="400" data-aos-duration="1700">Bhavik Panchal </span>
+                                     <!-- <span class="designation" data-aos-delay="450" data-aos-duration="1900">CEO and Co-Founder, XXXXXX</span> -->
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div data-aos="fade-up" data-aos-delay="350" data-aos-duration="1500">
+                     <div class="d-flex flex-column flex-wrap align-items-center justify-content-between">
+                         <div class="thumb" style="margin-top:40px; position:relative;">
+                             <img src="/static/static_images/person-1.jpg" alt="" loading="lazy">
+                             <div class="quote-icon" style="position:absolute; top:-50px; right:50px;">
+                                 <i class="fa fa-quote-left" aria-hidden="true" style="font-size:60px"></i>
+                             </div>
+                         </div>
+                         <div class="description d-flex flex-column align-items-start justify-content-between text-center" style="padding-top:3rem; padding-bottom:3rem;">
+                             <div class="text">
+                                 <p>Hey guys finally my dream of working in abroad has come true with the support of Origin Hubs. After approaching many other consultants and getting feedbacks, I chose Origin Hubs because of their team experts and high level experience in training students. They
+                                     helped me right from the deciding the course, country, training to get jobs in top companies and providing the best accommodation with all the facilities. The team is very well trained and always promptly helped me in resolving queries. I would highly recommend
+                                     Origin Hubs to all the students who aspire to study & work abroad.</p>
+                                 <div class="author">
+                                     <span class="name" data-aos-delay="400" data-aos-duration="1700">Akhil Katiki </span>
+                                     <!-- <span class="designation" data-aos-delay="450" data-aos-duration="1900">CEO and Co-Founder, XXXXXX</span> -->
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- <div class="client-logos container" style="padding-top:4rem;">
+         <div class="row justify-content-center">
+             <div class="items aos-init aos-animate" style="padding:1rem;" data-aos="fade-up" ddata-aos-delay="450" data-aos-duration="1000">
+                 <div class="thumb d-flex align-items-center justify-content-center" style="padding:1rem;">
+                     <img width="217" height="214" src="..//static/content/images/toi.jpg" class="attachment-full size-full" alt="Top Developers Top .NET" loading="lazy"> </div>
+             </div>
+             <div class="items aos-init aos-animate" style="padding:1rem;" data-aos="fade-up" ddata-aos-delay="500" data-aos-duration="1200">
+                 <div class="thumb d-flex align-items-center justify-content-center" style="padding:1rem;">
+                     <img width="190" height="129" src="..//static/content/images/toi.jpg" class="attachment-full size-full" alt="Forbes Technology" loading="lazy"> </div>
+             </div>
+             <div class="items aos-init aos-animate" style="padding:1rem;" data-aos="fade-up" ddata-aos-delay="550" data-aos-duration="1400">
+                 <div class="thumb d-flex align-items-center justify-content-center" style="padding:1rem;">
+                     <img width="202" height="218" src="..//static/content/images/toi.jpg" class="attachment-full size-full" alt="Clutch top Web Developers_2019" loading="lazy"> </div>
+             </div>
+             <div class="items aos-init aos-animate" style="padding:1rem;" data-aos="fade-up" ddata-aos-delay="600" data-aos-duration="1600">
+                 <div class="thumb d-flex align-items-center justify-content-center" style="padding:1rem;">
+                     <img width="219" height="215" src="..//static/content/images/toi.jpg" class="attachment-full size-full" alt="Top Developers Mobile App Development" loading="lazy"> </div>
+             </div>
+             <div class="items aos-init aos-animate" style="padding:1rem;" data-aos="fade-up" ddata-aos-delay="650" data-aos-duration="1800">
+                 <div class="thumb d-flex align-items-center justify-content-center" style="padding:1rem;">
+                     <img width="254" height="218" src="..//static/content/images/toi.jpg" class="attachment-full size-full" alt="Top Cloud computing comapny" loading="lazy"> </div>
+             </div>
+         </div>
+     </div> -->
+ </section>
+    <div class="right-sidebar">
+    <div class="right-sidebar-close d-flex align-items-center justify-content-center">
+        <svg class="icon">
+            <use xlink:href="..//static/content/images/common-sprite.svg#close"></use>
+        </svg>
+    </div>
+    <div class="wrap">
+        <div class="sidebar-logo">
+            <img src="/static/static_images/logo-new.svg" alt="">
+        </div>
+        <!-- <div class="description">Major business problems in any organization can be migrating towards automation which involves inaccuracy and duplication of data. We assist in such migrations and introduce</div> -->
+        <div class="navigation">
+
+            <ul id="menu-right-sidebar-first-menu" class="menu main">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="#">Services</a>
+                    <ul class="sub-menu">
+                        <li><a href="digital/transform/">Digital Transformation</a></li>
+                        <li><a href="devops/">DevOps</a></li>
+                        <li><a href="qa/automation/">QA Automation</a></li>
+                        <li><a href="ux/">User Experience(UX)</a></li>
+                        <li><a href="business/analytics/">Business Analytics</a></li>
+                        <li><a href="cloud/counsulting/">Cloud Consulting</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul id="menu-right-sidebar-first-menu" class="menu main">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="#">Solutions</a>
+                    <ul class="sub-menu">
+                        <li><a href="/fullstack/">Full Stack Development</a></li>
+                        <li><a href="/blockchain/">Blockchain</a></li>
+                        <li><a href="/erp/">ERP</a></li>
+                        <li><a href="/crm/">CRM</a></li>
+                        <li><a href="/health/tech/">Health Tech</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul id="menu-right-sidebar-first-menu" class="menu main">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="#">Industries</a>
+                    <ul class="sub-menu">
+                        <li><a href="/fintech/">Fintech</a></li>
+                        <li><a href="/insurence/">Insurance</a></li>
+                        <li><a href="/healthcare/">Healthcare</a></li>
+                        <li><a href="/telecom/">Telecom</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul id="menu-right-sidebar-first-menu" class="menu main">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a href="#">Company</a>
+                    <ul class="sub-menu">
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="/contact/">Contact Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="culture.html">Culture</a></li>
+                        <li><a href="csr.html">CSR</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul id="menu-right-sidebar-second-menu" class="menu second">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/">Home</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="careers.html">Careers</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/contact/">Contact Us</a></li>
+                <!-- <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="aboutus.html">About Us</a></li> -->
+            </ul>
+        </div>
+
+    </div>
+</div>   
+
+<a href="https://api.whatsapp.com/send?phone=19197607272&amp;text=Hi" class="float" target="_blank">
+    
+      <img src="/static/static_images/whatsapp.png" style="
+    width: 75%;
+">
+   
+</a>
+
+
+    <section class="content-with-listing-module">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" style="margin-bottom:0px !important;">
+                    <h2 class="title">WHY US</h2>
+                    <div class="sub-title underline relative d-inline">Let's Work<span> Together</span></div>
+                </div>
+            </div>
+            <div class="col-lg-12 pa-2" style="padding-top:2rem;">
+                <div class="description" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1400">
+                    <p>Originhubs is your vital associate in speeding up your design by utilizing state of the art technology, we trust in resolving complex business difficulties with genuine ability and customer-eccentric.</p>
+                </div>
+            </div>
+        </div>
+        <div class="icon-listing module-cms">
+            <div class="row">
+                <div class="col-sm-6 items" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1400">
+                    <div class="d-flex flex-wrap align-items-start justify-content-between" style="padding:1rem; background-image: linear-gradient(180deg, #dfe9f3 10%, #ffffff 100%);">
+                        <div class="icon-wrap d-flex align-items-center justify-content-center p-2">
+                            <!-- <img src="../content/images/m-white.png" class="attachment-full size-full" alt="" loading="lazy"> -->
+                           <img src="/static/static_images/light-bulb-idea-svgrepo-com.svg"/> 
+                        </div>
+                        <div class="description">
+                            <div class="wrap">
+                                <h2>Innovative Mindset</h2>
+                                <p>To remain at the front line in this evolving innovative world we assist you to create a data and analytics strategy, with our top tier advanced technologies to create applications, coordinate with different dialects, and modernize the unbending inheritance
+                                    frameworks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 items" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1400">
+                    <div class="d-flex flex-wrap align-items-start justify-content-between" style="padding:1rem; background-image: linear-gradient(180deg, #dfe9f3 10%, #ffffff 100%);">
+                        <div class="icon-wrap d-flex align-items-center justify-content-center p-2">
+                            <img src="/static/static_images/user-svgrepo-com.svg"/> 
+                        </div>
+                        <div class="description">
+                            <div class="wrap">
+                                <h2>Outcome-driven</h2>
+                                <p>Our methodology comprises state of the art avenues that can assemble secure verification of-idea to scrutinize the high-level engineering and assist you with accomplishing transform objectives. With our AI-controlled applications, We coordinate the most advanced
+                                    up-to-date instruments, approaches and apply our ability to give remarkable program arrangements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 items" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1400">
+                    <div class="d-flex flex-wrap align-items-start justify-content-between" style="padding:1rem; background-image: linear-gradient(180deg, #dfe9f3 10%, #ffffff 100%);">
+                        <div class="icon-wrap d-flex align-items-center justify-content-center p-2">
+                            <img src="/static/static_images/artificial-intelligence-svgrepo-com.svg"/> 
+                        </div>
+                        <div class="description">
+                            <div class="wrap">
+                                <h2>High-tech insight</h2>
+                                <p>Accelerate your journeys with our demonstrated methodology, profoundly advanced acumen, and automated exposure. Our affirmed experts have top to bottom information across different technologies and frameworks. Fast-track your digital transformation range and
+                                    deliver enriching experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 items" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1400">
+                    <div class="d-flex flex-wrap align-items-start justify-content-between" style="padding:1rem; background-image: linear-gradient(180deg, #dfe9f3 10%, #ffffff 100%);">
+                        <div class="icon-wrap d-flex align-items-center justify-content-center p-2">
+                            <img src="/static/static_images/pc-settings-svgrepo-com.svg"/> 
+                        </div>
+                        <div class="description">
+                            <div class="wrap">
+                                <h2>Cutting-edge solutions</h2>
+                                <p>Experience our digital drive solutions to unlock transformation perks. We concentrate on solutions that assist us with pushing your dynamic necessities. Our innovation and program architecture arrangements can be associated with different frameworks that guarantee
+                                    investigation, reporting and data stream. To check and approve benefits rigorously in consistency with guidelines and best practices, we have a vigorous ideation team of proactive specialists.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="padding:4rem 0; background:#F6F6FC;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section-title" style="margin-bottom: 0px;" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
+                    <div class="sub-title">Come Work<span> With Us</span></div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1200" style="margin-bottom:3rem;">
+                    <p style="font-size:1.2rem;">We consistently deliver better-designing solutions to assist organizations with modernizing innovation and accomplishing genuine automated stages.</p>
+                </div>
+                <div class="description" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1200">
+                    <a href="#" class="cta-btn cta-btn-orange inline-block">Explore Jobs</a>
+                </div>
+            </div>
+            <div class="col-md-6" style="border-radius:10px; background-image: url('/static/static_images/2650401.jpg'); background-size:cover;" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1600">
+                <div class="thumb text-center">
+                    <!-- <img src="" alt="" style="border-radius: 10px; box-shadow: 0px 15px 15px -5px rgb(93 69 180 / 15%);"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="subscribe-news-letter">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-4 mb-4 mb-xl-0" data-aos="fade-up" data-aos-offset="0" data-aos-delay="0" data-aos-duration="1000">
+                <div class="description">
+                    <h2 class="block-title">Subscribe To Our News Letter</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p> -->
+                </div>
+            </div>
+            <div class="col-xl-8" data-aos="fade-up" data-aos-offset="0" data-aos-delay="300" data-aos-duration="1200">
+                <div class="ns-container">
+                    <div class="ns-wrapper">
+                        <div class="form d-flex align-items-center justify-content-center justify-content-lg-around ns-form" id="ns-form"  name="ns-form">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="ns-group form-group"><input type="text" name="ns-firstname" class="ns-input ns-firstname form-control" id="ns-firstname" placeholder="Full name*" /></div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="ns-group ">
+									<input type="email" name="ns-email" class="ns-input ns-email form-control" id="ns-email" placeholder="Email Id*" />
+									</div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="ns-action">
+									<button id="ns-submit_btn" type="button" name="ns-submit" class="btn btn-primary ns-submit submit">Subscribe Now </button>
+									</div>
+                                    <div class="loader"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+	
+	
+	
+	<footer class="footer-container">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-3 mb-0 mb-lg-0 text-center text-md-left" data-aos="fade-up" data-aos-offset="0" data-aos-delay="0" data-aos-duration="1000">
+                    <div class="footer-logo">
+                        <img src="/static/static_images/logo-white.svg" alt="">
+                    </div>
+                    <div class="address">
+                        <a href="#" target="_blank">
+                            10315 Chapel Hill Road,<br />
+                            1st floor, Morrisville, NC 27560<br />
+                            USA</a>
+                    </div>
+                    <div class="phone-number">
+                        <a href="#">(919)-336-3016</a>
+                    </div>
+                    <div class="email">
+                        <a href="#">hr@originhubs.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 footer-links">
+                    <div class="footer-close">
+                        <svg class="icon">
+                            <use xlink:href="..//static/content/images/common-sprite.svg#close"></use>
+                        </svg>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3" data-aos="fade-up" data-aos-offset="0" data-aos-delay="300" data-aos-duration="1000">
+                            <div class="company">
+                                <h3>Company</h3>
+                                <ul id="menu-company-menu" class="">
+                                    <li><a href="aboutus.html">About Us</a></li>
+                                    <li><a href="careers.html">Careers</a></li>
+                                    <li><a href="culture.html">Culture</a></li>
+                                    <li><a href="/contact/">Contact Us</a></li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3" data-aos="fade-up" data-aos-offset="0" data-aos-delay="350" data-aos-duration="1200">
+
+                            <div class="services">
+                                <h3>Services</h3>
+                                <ul id="menu-services-menu" class="">
+                                    <li><a href="/digital/transform/">Digital Transformation</a></li>
+                                    <li><a href="/devops/">DevOps</a></li>
+                                    <li><a href="/qa/automation/">QA Automation</a></li>
+                                    <li><a href="/ux/">User Experience(UX)</a></li>
+                                    <li><a href="/business/analytics/">Business Analytics</a></li>
+                                    <li><a href="/cloud/counsulting/">Cloud Consulting</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3" data-aos="fade-up" data-aos-offset="0" data-aos-delay="350" data-aos-duration="1200">
+
+                            <div class="solutions">
+                                <h3>Solutions</h3>
+                                <ul id="menu-services-menu" class="">
+                                    <li><a href="/fullstack/">Full Stack Development</a></li>
+                                    <li><a href="/blockchain/">Blockchain</a></li>
+                                    <li><a href="/erp/">ERP</a></li>
+                                    <li><a href="/crm/">CRM</a></li>
+                                    <li><a href="/health/tech/">Health Tech</a></li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="1400">
+                            <div class="contact">
+                                <h3>Industries</h3>
+                                <ul id="menu-contact-menu" class="">
+                                    <li><a href="/fintech/">Fintech</a></li>
+                                    <li><a href="/insurence/">Insurance</a></li>
+                                    <li><a href="/healthcare/">Healthcare</a></li>
+                                    <li><a href="/telecom/">Telecom</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-toggle">
+        More Links
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-lg-between align-items-center">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-offset="0" data-aos-delay="350" data-aos-duration="1600" data-aos-anchor=".footer-container">
+                    <div class="privacy-link text-center text-md-left mb-3 mb-lg-0">
+                        <a href="#">Legal Disclaimer</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-offset="0" data-aos-delay="400" data-aos-duration="1800" data-aos-anchor=".footer-container">
+                    <div class="social-media d-flex align-items-center justify-content-center justify-content-md-end justify-content-lg-center mb-3 mb-lg-0">
+                        <!-- <a href="#" class="linkedin" target="_blank">
+                            <svg class="icon">
+                                <use xlink:href="..//static/content/images/common-sprite.svg#linkedin"></use>
+                            </svg>
+                        </a> -->
+                        <a href="https://twitter.com/originhubs/" class="twitter" target="_blank">
+                            <i style="color:#FFFFFF" class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.facebook.com/OriginHubsTechnology" class="facebook" target="_blank">
+                            <i style="color:#FFFFFF" class="fa fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/originhubs/" class="youtube" target="_blank">
+                            <i style="color:#FFFFFF" class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-offset="0" data-aos-delay="450" data-aos-duration="2000" data-aos-anchor=".footer-container">
+                    <div class="copyright text-center text-lg-right">Copyright © 2021 Origin Hubs - All Rights Reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer> 
+
+   <script src="{% static 'JS/jquery.min.js' %}" id='jquery-core-js'></script>
+<script src="{% static 'JS/jquery-migrate.min.js' %}" id='jquery-migrate-js'></script>
+<script src="{% static 'JS/aos.js'%}" id='aos-js-js' ></script>
+<script src="{% static 'JS/bootstrap.bundle.min.js'%}" id='bootstrap-bundle-min-js-js'></script>
+<script src="{% static 'JS/slick.min.js'%}" id='slick-min-js-js'></script>
+<script src="{% static 'JS/jquery.fancybox.min.js'%}" id='jquery-fancybox-min-js-js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src='/static/content/js/homepage-animation.js' id='homepage-animation.js-js'></script> -->
+<script src="{% static 'JS/custom.js'%}" id='custom-js-js'></script>
+<script src="{% static 'JS/developer.js'%}" id='theme-developer-js-js'></script>
+<script>
+    $(window).on("load", function () {
+        $('.loader').fadeOut('slow');
+    });
+    $(window).scroll(function () {
+        if ($(this).scrollTop() == 0) {
+            $('.header').css({
+                'box-shadow': 'none',
+                '-moz-box-shadow': 'none',
+                '-webkit-box-shadow': 'none'
+            });
+        } else {
+            $('.header').css({
+                'box-shadow': 'rgb(81 81 81 / 5%) 0px 10px 10px'
+            });
+        }
+    });
+
+
+  $(document).on('click','#ns-submit_btn',function(){
+  //debugger
+  
+			var name = $('#ns-firstname').val()
+			var email = $('#ns-email').val()
+			
+	if ($("#ns-firstname").val() == "") {
+        
+        $("#ns-firstname").focus();
+		alert('Enter Your name')
+      } else if ($("#ns-email").val() == "") {
+        $("#ns-email").focus();
+		alert('Enter Email ID')
+      } else {
+        var userdata = {
+          "name" : name,
+		  "email" :email
+        }
+        
+			//$.ajax({
+			//type:'POST',
+			//beforeSend: function(request) {
+			//request.setRequestHeader("Authority", authorizationToken);
+			//},
+			//url: '/subscribe/',
+			//data: JSON.stringify(userdata),
+			//dataType: 'json',
+			//processData: false,
+			//success: function (data) {
+			//	//debugger;
+			//  window.location.href = '/create/meetingid/';
+			//},
+			//error:function(data){
+			//	//debugger
+			//	alert('error')
+			//}
+		  //});
+		  formdata = new FormData()
+		  formdata.append('name',name)
+		  formdata.append('email',email)
+		  formdata.append('csrfmiddlewaretoken','{{csrf_token}}')
+		  $.ajax({
+					type: 'POST',
+					url: '/subscribe/',
+					contentType: 'multipart/form-data',
+					dataType: '',
+					contentType: false,
+					processData:false,
+					data: formdata,
+					success: function (data){
+						alert('Subscribed Successfully')
+						$('#ns-firstname').val('')
+						 $('#ns-email').val('')
+						
+					},
+					error:function(data){
+						alert('error')
+					}
+				})
+      }
+  
+  
+  })
+  
+  
+  
+    $(document).on('click','#contact_sub',function(){
+  //debugger
+  
+			
+			
+	if ($("#Name").val() == "") {
+        
+        $("#Name").focus();
+		alert('Enter Your name')
+      } else if ($("#Email").val() == "") {
+        $("#Email").focus();
+		alert('Enter Email ID')
+      } else if ($("#PhoneNumber").val() == "") {
+        $("#PhoneNumber").focus();
+		alert('Enter PhoneNumber')
+      }else if ($("#Message").val() == "") {
+        $("#Message").focus();
+		alert('Enter Message')
+      } else {
+        var userdata = {
+          "name" : $("#Name").val(),
+		  "email" :$("#Email").val(),
+		  "phone" :$("#PhoneNumber").val(),
+		  "Message" :$("#Message").val(),
+        }
+        
+			//$.ajax({
+			//type:'POST',
+			//beforeSend: function(request) {
+			//request.setRequestHeader("Authority", authorizationToken);
+			//},
+			//url: '/subscribe/',
+			//data: JSON.stringify(userdata),
+			//dataType: 'json',
+			//processData: false,
+			//success: function (data) {
+			//	//debugger;
+			//  window.location.href = '/create/meetingid/';
+			//},
+			//error:function(data){
+			//	//debugger
+			//	alert('error')
+			//}
+		  //});
+		  formdata = new FormData()
+		  formdata.append('name',$("#Name").val())
+		  formdata.append('email',$("#Email").val())
+		  formdata.append('phone',$("#PhoneNumber").val())
+		  formdata.append('message',$("#Message").val())
+		  formdata.append('csrfmiddlewaretoken','{{csrf_token}}')
+		  $.ajax({
+					type: 'POST',
+					url: '',
+					contentType: 'multipart/form-data',
+					dataType: '',
+					contentType: false,
+					processData:false,
+					data: formdata,
+					success: function (data){
+						alert('Subscribed Successfully')
+						$('#ns-firstname').val('')
+						 $('#ns-email').val('')
+						
+					},
+					error:function(data){
+						alert('error')
+					}
+				})
+      }
+  
+  
+  })
+
+
+	$(document).ready(function(){
+  
+  
+
+  
+  
+});
+	
+
+</script>
+<script type="text/javascript">
+    window.addEventListener("load", function (event) {
+        jQuery(".cfx_form_main,.wpcf7-form,.wpforms-form,.gform_wrapper form").each(function () {
+            var form = jQuery(this);
+            var screen_width = "";
+            var screen_height = "";
+            if (screen_width == "") {
+                if (screen) {
+                    screen_width = screen.width;
+                } else {
+                    screen_width = jQuery(window).width();
+                }
+            }
+            if (screen_height == "") {
+                if (screen) {
+                    screen_height = screen.height;
+                } else {
+                    screen_height = jQuery(window).height();
+                }
+            }
+            form.append('<input type="hidden" name="vx_width" value="' + screen_width + '">');
+            form.append('<input type="hidden" name="vx_height" value="' + screen_height + '">');
+            form.append('<input type="hidden" name="vx_url" value="' + window.location.href + '">');
+        });
+
+    });
+</script>
+</body>
+</html>

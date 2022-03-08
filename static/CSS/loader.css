@@ -1,0 +1,127 @@
+.overflow {
+    position: fixed;
+    z-index: 9998;
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.circle-square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.circle-square {
+    z-index: 9999;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.red,
+.green,
+.yellow,
+.blue {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.red {
+    background-color: #EA4335;
+    animation: movingRed 1s infinite alternate;
+
+}
+
+.blue {
+    background-color: #4285f4;
+    animation: movingBlue 1s infinite alternate;
+
+}
+
+.green {
+    background-color: #34A853;
+    animation: movingGreen 1s infinite alternate;
+
+}
+
+.yellow {
+    background-color: #FBBC05;
+    animation: movingYellow 1s infinite alternate;
+
+}
+
+
+main {
+    background-color: blueviolet;
+}
+
+/* CSS ANIMATION */
+
+@keyframes movingRed {
+    from {
+
+        top: 0px;
+        left: 0px;
+
+    }
+
+    to {
+
+        top: 50px;
+        left: 50px;
+    }
+}
+
+@keyframes movingYellow {
+    from {
+
+        top: 0px;
+        left: 0px;
+
+    }
+
+    to {
+
+        top: -50px;
+        left: -50px;
+    }
+}
+
+@keyframes movingGreen {
+    from {
+
+        top: 0px;
+        left: 0px;
+
+    }
+
+    to {
+
+        top: -50px;
+        left: 50px;
+    }
+}
+
+@keyframes movingBlue {
+    from {
+
+        top: 0px;
+        left: 0px;
+
+    }
+
+    to {
+
+        top: 50px;
+        left: -50px;
+    }
+}
